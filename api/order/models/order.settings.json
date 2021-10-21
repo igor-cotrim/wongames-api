@@ -10,7 +10,6 @@
     "timestamps": true,
     "draftAndPublish": false
   },
-  "pluginOptions": {},
   "attributes": {
     "user": {
       "plugin": "users-permissions",
@@ -18,9 +17,6 @@
     },
     "games": {
       "collection": "game"
-    },
-    "total_in_cents": {
-      "type": "biginteger"
     },
     "payment_intent_id": {
       "type": "string"
@@ -30,6 +26,9 @@
     },
     "card_last4": {
       "type": "string"
+    },
+    "total_in_cents": {
+      "type": "biginteger"
     }
   }
 }
